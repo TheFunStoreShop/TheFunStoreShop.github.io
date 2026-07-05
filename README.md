@@ -42,6 +42,7 @@
         <a href="#suggestions">Suggestions</a>
     </nav>
     <div class="page-container">
+        <!-- WHY US SECTION -->
         <section id="why-us" class="section-block">
             <h2>Why Us?</h2>
             <div class="why-us-list">
@@ -63,16 +64,18 @@
                 </div>
             </div>
         </section>
+
+        <!-- WHAT WE SELL SECTION -->
         <section id="what-we-sell" class="section-block">
             <h2>What We Sell</h2>
             <div class="product-grid">
                 <div class="product-card">
-                    <span class="product-label">Tactical Series</span><span class="product-title">50pc Green Army Men Bucket</span>
-                    <p>Classic military soldier figurines packaged in a durable storage bucket setup. Perfect for custom floor campaigns and strategic setups.</p>
+                    <span class="product-label">Tactical Series</span><span class="product-title">50pc Green Army Men Bin</span>
+                    <p>Classic military soldier figurines sold in a simple, clear plastic circle bin layout. Easy to store and play.</p>
                 </div>
                 <div class="product-card">
-                    <span class="product-label">Tactical Series</span><span class="product-title">50pc Tan Army Men Bucket</span>
-                    <p>Classic military soldier figurines packaged in a durable storage bucket setup. Perfect for custom floor campaigns and strategic setups.</p>
+                    <span class="product-label">Tactical Series</span><span class="product-title">50pc Tan Army Men Bin</span>
+                    <p>Classic military soldier figurines sold in a simple, clear plastic circle bin layout. Easy to store and play.</p>
                 </div>
                 <div class="product-card">
                     <span class="product-label">Wood Hobby</span><span class="product-title">Wooden Car Building Set</span>
@@ -80,22 +83,24 @@
                 </div>
                 <div class="product-card">
                     <span class="product-label">Wood Hobby</span><span class="product-title">Wooden Boat Assembly Set</span>
-                    <p>Simple, raw blocks of pine wood wood watercraft blanks designed for detailing and racing.</p>
+                    <p>Simple, raw blocks of pine wood watercraft blanks designed for detailing and basic racing builds.</p>
                 </div>
                 <div class="product-card">
                     <span class="product-label">Sensory Series</span><span class="product-title">Squishy Toys & Fidgets</span>
-                    <p>An assortment of satisfying tactile focus tools and stretchable stress-relief accessories.</p>
+                    <p>A fun mix of simple pocket-sized fidget toys, sensory stretch items, and classic squishies.</p>
                 </div>
                 <div class="product-card">
                     <span class="product-label">Miniature Packs</span><span class="product-title">Plastic Animal Buckets</span>
-                    <p>Collectible miniature plastic animal figures arranged neatly inside travel buckets.</p>
+                    <p>Simple assortments of small plastic animal figures grouped together for quick tabletop setups.</p>
                 </div>
                 <div class="product-card" style="grid-column: 1 / -1; max-width: 100%; border-left: 5px solid #16a34a;">
-                    <span class="product-label" style="color: #16a34a; font-weight: 800;">🔥 Limited Release Drops</span><span class="product-title">Authentic NeeDoh Collections</span>
-                    <p>Genuine, ultra-satisfying squeeze balls and rare drop designs. These sell out fast, keep an eye on our schedules!</p>
+                    <span class="product-label" style="color: #16a34a; font-weight: 800;">📦 Authorized Retailer</span><span class="product-title">Official Schylling NeeDoh Shipments</span>
+                    <p>We source authentic sensory items directly from the official NeeDoh brand line. These popular squish drops sell out fast when our shipments arrive, so grab them while they are on the counters!</p>
                 </div>
             </div>
         </section>
+
+        <!-- RENTALS SECTION -->
         <section id="rentals" class="section-block">
             <h2>Apartment & Building Rentals</h2>
             <div class="rental-grid">
@@ -123,9 +128,9 @@
                 </div>
             </div>
         </section>
+
+        <!-- SUGGESTIONS SECTION -->
         <section id="suggestions" class="section-block">
             <h2>Inventory Suggestions</h2>
             <div class="suggestion-panel">
                 <p>Want a specific licensed toy brand or custom craft supply kit added to our physical storefront? Drop your product ideas directly below!</p>
-                <textarea class="suggestion-input" id="user-textbox" placeholder="Type specific toy lines or fidget varieties you want to see..."></textarea>
-                <button class="suggestion-btn" onclick="sendIdea()">Submit Request</button>
