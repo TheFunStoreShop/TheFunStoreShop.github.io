@@ -68,19 +68,19 @@
             <div class="product-grid">
                 <div class="product-card">
                     <span class="product-label">Tactical Series</span><span class="product-title">50pc Green Army Men Bucket</span>
-                    <p>Classic military soldier figurines packaged in a durable storage bucket setup.</p>
+                    <p>Classic military soldier figurines packaged in a durable storage bucket setup. Perfect for custom floor campaigns and strategic setups.</p>
                 </div>
                 <div class="product-card">
                     <span class="product-label">Tactical Series</span><span class="product-title">50pc Tan Army Men Bucket</span>
-                    <p>Desert-style military soldier figures matching our regulatory squad sizes, complete with a bucket.</p>
+                    <p>Classic military soldier figurines packaged in a durable storage bucket setup. Perfect for custom floor campaigns and strategic setups.</p>
                 </div>
                 <div class="product-card">
                     <span class="product-label">Wood Hobby</span><span class="product-title">Wooden Car Building Set</span>
-                    <p>Pre-milled high-grade wooden vehicle bodies ready for custom sanding and creative paint work.</p>
+                    <p>Simple, raw blocks of pine wood ready for custom sanding, wheel alignment shaping, and track racing.</p>
                 </div>
                 <div class="product-card">
                     <span class="product-label">Wood Hobby</span><span class="product-title">Wooden Boat Assembly Set</span>
-                    <p>Premium raw wood watercraft blanks designed for structural detailing and local fleet races.</p>
+                    <p>Simple, raw blocks of pine wood wood watercraft blanks designed for detailing and racing.</p>
                 </div>
                 <div class="product-card">
                     <span class="product-label">Sensory Series</span><span class="product-title">Squishy Toys & Fidgets</span>
@@ -109,7 +109,7 @@
                     </ul>
                 </div>
                 <div class="rental-card">
-                    <span class="rental-label">Residential Suite</span><span class="status-badge status-leased">🔴 Currently Leased</span><span class="rental-title">Apartment Unit B</span>
+                    <span class="rental-label">Residential Suite</span><span class="status-badge status-available">🟢 Available Now</span><span class="rental-title">Apartment Unit B</span>
                     <p>Modernized town-view studio apartment space sitting quietly above the ground level retail environment.</p>
                     <ul class="rental-specs">
                         <li>2 Bedrooms / 1 Full Bath</li>
