@@ -15,7 +15,7 @@
         .page-container { max-width: 800px; margin: 0 auto; }
         .section-block { padding: 80px 0 20px 0; }
         .section-block h2 { font-size: 2rem; margin: 0 0 30px 0; text-transform: uppercase; border-bottom: 2px solid #16a34a; padding-bottom: 10px; }
-        .why-us-item, .product-card, .rental-card, .suggestion-panel, .hours-panel, .team-panel { background-color: #ffffff; padding: 35px; border: 1px solid #e2e8f0; box-sizing: border-box; margin-bottom: 25px; }
+        .why-us-item, .product-card, .rental-card, .suggestion-panel, .hours-panel { background-color: #ffffff; padding: 35px; border: 1px solid #e2e8f0; box-sizing: border-box; margin-bottom: 25px; }
         .rental-specs { margin: 15px 0 0 0; padding-left: 20px; color: #475569; }
         .rental-specs li { margin-bottom: 5px; }
     </style>
@@ -26,7 +26,6 @@
         <h1>The Fun Store</h1>
     </header>
 
-    <!-- REPAIRED COHESIVE FLEXIBLE HEADER LINING -->
     <nav>
         <a href="#why-us">Why Us</a>
         <a href="#what-we-sell">What We Sell</a>
@@ -120,10 +119,9 @@
             </div>
         </section>
 
-        <!-- REPAIRED CLEAN TEAM SECTION -->
-        <section id="team" class="section-block">
-            <h2>Meet The Team</h2>
-            <div class="team-panel">
-                <p style="margin: 0 0 20px 0; color: #475569;">The friendly crew running our counter lanes and building property lines here on Main Street:</p>
-                
-                <div style="margin-bottom: 30px; padding-bottom: 25px; border-bottom: 1px dashed #e2e8f0;">
+        <!-- FULLY REPAIRED SUGGESTIONS PANEL SECTION -->
+        <section id="suggestions" class="section-block">
+            <h2>Inventory Suggestions</h2>
+            <div class="suggestion-panel">
+                <p style="margin: 0 0 10px 0;">Type toy variations, licensed brands, or snack ideas you want to see on our storefront counters:</p>
+                <textarea id="user-box" style="width: 100%; height: 80px; box-sizing: border-box; font-family: sans-serif; padding: 10px;"></textarea>
