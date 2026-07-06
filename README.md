@@ -67,27 +67,41 @@
         <span style="font-size: 0.9rem; color: #475569;">(Can be leased separately or combined into an apartment contract bundle for $1,050/mo total)</span>
     </div>
 
-    <!-- NEW DETAILED CONTACT DESK & NEWSLETTER -->
+    <!-- CONTACT & FULL INTEGRATED NEWSLETTER WIRE SECTION -->
     <h2 style="color: #16a34a; text-transform: uppercase; font-size: 1.5rem;">Contact & Newsletter</h2>
     <div style="background: #ffffff; padding: 20px; border: 1px solid #e2e8f0; margin-bottom: 30px;">
-        <p style="margin: 0 0 10px 0; font-weight: bold; color: #16a34a;">💼 Standard Shop & Rental Inquiries:</p>
-        <p style="margin: 0 0 15px 0; color: #334155;">For general questions about toy inventory counters, candy stock updates, or basic apartment availability timelines, message our main office desk:</p>
-        <p style="margin: 0 0 25px 0; font-size: 1.1rem; font-weight: bold;">📩 Business Email: <a href="mailto:thefunstoreshop@gmail.com" style="color: #16a34a; text-decoration: none;">thefunstoreshop@gmail.com</a></p>
+        <p style="margin: 0 0 10px 0; font-weight: bold; color: #16a34a;">📩 Standard Questions:</p>
+        <p style="margin: 0 0 15px 0; color: #334155;">For any basic questions about our toys, counter snacks, or general apartment info, please use our main shop email:</p>
+        <p style="margin: 0 0 25px 0; font-size: 1.1rem; font-weight: bold;">👉 <a href="mailto:thefunstoreshop@gmail.com" style="color: #16a34a; text-decoration: none;">thefunstoreshop@gmail.com</a></p>
         
-        <p style="margin: 0 0 10px 0; font-weight: bold; color: #b91c1c;">⚠️ Urgent & High-Priority Matters:</p>
-        <p style="margin: 0 0 15px 0; color: #334155;">For very important business layout updates, contractor lease agreements, bank documents, or urgent tenant building items, contact the owner line directly:</p>
-        <p style="margin: 0 0 20px 0; font-size: 1.1rem; font-weight: bold;">🚨 Direct Owner Line: <a href="mailto:brycepheasant@icloud.com" style="color: #b91c1c; text-decoration: none;">brycepheasant@icloud.com</a></p>
+        <p style="margin: 0 0 10px 0; font-weight: bold; color: #b91c1c;">⚠️ Urgent Backup Contact:</p>
+        <p style="margin: 0 0 15px 0; color: #334155;">Please only use my personal email if you don't get a response from the business email or if you need an answer right away:</p>
+        <p style="margin: 0 0 20px 0; font-size: 1.1rem; font-weight: bold;">👉 <a href="mailto:brycepheasant@icloud.com" style="color: #b91c1c; text-decoration: none;">brycepheasant@icloud.com</a></p>
         
         <div style="border-top: 2px dashed #16a34a; padding-top: 20px; margin-top: 20px;">
             <h4 style="margin: 0 0 10px 0; text-transform: uppercase; letter-spacing: 0.5px;">📰 Join The Fun Club Newsletter</h4>
-            <p style="margin: 0 0 15px 0; color: #475569; font-size: 0.95rem;">Drop your email address below to join our update wire loop! Get first-alert alerts on Schylling NeeDoh delivery shipments, local wooden car races, and retail store opening events.</p>
+            <p style="margin: 0 0 15px 0; color: #475569; font-size: 0.95rem;">Drop your email address below to join our update wire loop! Get first alerts on Schylling NeeDoh delivery shipments, local wooden car races, and retail store opening events.</p>
             
-            <!-- Live Connected Mailerlite Integration Form Wire -->
-            <form action="https://mailerlite.com" method="POST">
-                <input type="email" name="fields[email]" placeholder="Enter your email address..." required style="width: 100%; padding: 12px; border: 1px solid #cbd5e1; box-sizing: border-box; margin-bottom: 10px;">
-                <button type="submit" style="background: #16a34a; color: #ffffff; border: none; padding: 12px 28px; font-weight: bold; text-transform: uppercase; cursor: pointer;">Subscribe</button>
-            </form>
-        </div>
+            <!-- OFFICIAL LIVE MAILERLITE EMBED STYLES AND FORM CARD -->
+            <style type="text/css">@import url("https://mlcdn.com");</style>
+            <div id="mlb2-43425625" class="ml-form-embedContainer ml-subscribe-form ml-subscribe-form-43425625">
+              <div class="ml-form-embedWrapper embedForm">
+                <div class="ml-form-embedBody styleForm ml-form-embedBodyHorizontal">
+                  <form class="ml-block-form" action="https://mailerlite.com" method="post" target="_blank">
+                    <div class="ml-form-formContent horozintalForm">
+                      <div class="ml-form-fieldRow">
+                        <div class="ml-field-group ml-field-email ml-validate-email ml-validate-required">
+                          <input type="email" class="form-control" name="fields[email]" placeholder="Enter your email address..." autocomplete="email" required style="width: 100%; padding: 12px; border: 1px solid #cbd5e1; box-sizing: border-box; margin-bottom: 10px; background-color: #ffffff !important; color: #333333 !important;">
+                        </div>
+                      </div>
+                    </div>
+                    <button type="submit" style="background-color: #16a34a; color: #ffffff; border: none; padding: 12px 28px; font-weight: bold; text-transform: uppercase; cursor: pointer; display: inline-block;">Subscribe</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+            
+          </div>
     </div>
 
     <!-- SUGGESTIONS SECTION -->
@@ -101,22 +115,3 @@
 
     <!-- STORE STATUS -->
     <h2 style="color: #16a34a; text-transform: uppercase; font-size: 1.5rem;">Store Status</h2>
-    <div style="background: #ffffff; padding: 20px; border-left: 5px solid #16a34a; border-top: 1px solid #e2e8f0; border-right: 1px solid #e2e8f0; border-bottom: 1px solid #e2e8f0;">
-        <p style="margin: 0;"><strong>🚧 Store Progress: Building Transformation Underway</strong></p>
-        <p style="margin: 5px 0 0 0; color: #475569;">We are currently prepping the ground floor storefront layout and coordinating initial product lines behind the scenes. Opening soon!</p>
-    </div>
-
-    <!-- APP ENGINE LOGIC -->
-    <script>
-        function sendIdea() {
-            const input = document.getElementById('user-box');
-            const alert = document.getElementById('alert-text');
-            if (input.value.trim() !== "") {
-                alert.style.display = "block";
-                input.value = "";
-            }
-        }
-    </script>
-
-</body>
-</html>
