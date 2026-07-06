@@ -109,25 +109,23 @@
         <section id="rentals" class="section-block">
             <h2>Apartment & Building Rentals</h2>
             <div class="rental-grid">
-                <!-- Apartment Unit A -->
                 <div class="rental-card">
                     <span class="rental-label">Residential Suite</span><span class="status-badge status-available">🟢 Available Now</span><span class="rental-title">Apartment Unit A</span>
-                    <p>Comfortable upper-level 2-bedroom residential apartment space featuring two private secure entrances and included kitchen appliances.</p>
+                    <p>Complete upper-level 2-bedroom residential apartment featuring secure entrances and kitchen appliances.</p>
                     <ul class="rental-specs">
                         <li>2 Bedrooms / 1 Full Bath</li>
                         <li>Refrigerator & stove included</li>
                         <li>Shared washer/dryer in common area</li>
                     </ul>
                 </div>
-                <!-- Apartment Unit B -->
                 <div class="rental-card">
                     <span class="rental-label">Residential Suite</span><span class="status-badge status-available">🟢 Available Now</span><span class="rental-title">Apartment Unit B</span>
-                    <p>Comfortable upper-level 2-bedroom residential apartment space featuring two private secure entrances and included kitchen appliances.</p>
+                    <p>Complete upper-level 2-bedroom residential apartment featuring secure entrances and kitchen appliances.</p>
                     <ul class="rental-specs">
                         <li>2 Bedrooms / 1 Full Bath</li>
                         <li>Refrigerator & stove included</li>
                         <li>Shared washer/dryer in common area</li>
                     </ul>
                 </div>
-                <!-- Garage & Private Parking Lot Feature Card -->
                 <div class="rental-card" style="grid-column: 1 / -1; max-width: 100%;">
+                    <span class="rental-label">Property Units</span><span class="status-badge status-available">🟢 Available Now</span><span class="rental-title">1 1/2 Car Garage & Private Parking Lot</span>
