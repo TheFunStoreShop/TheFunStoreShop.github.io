@@ -22,7 +22,6 @@
         .product-label, .rental-label { font-size: 1.05rem; text-transform: uppercase; margin-bottom: 12px; }
         .status-badge { display: inline-block; padding: 4px 10px; font-size: 0.85rem; font-weight: bold; text-transform: uppercase; border-radius: 4px; margin-bottom: 15px; }
         .status-available { background-color: #dcfce7; color: #15803d; }
-        .status-pending { background-color: #fef08a; color: #854d0e; }
         .why-us-title, .product-title, .rental-title, .hours-title { font-size: 1.3rem; font-weight: bold; display: block; margin-bottom: 8px; }
         .why-us-item p, .product-card p, .rental-card p, .suggestion-panel p, .hours-panel p { margin: 0; color: #334155; }
         .rental-specs { margin: 15px 0 0 0; padding-left: 20px; color: #475569; }
@@ -109,21 +108,26 @@
         <section id="rentals" class="section-block">
             <h2>Apartment & Building Rentals</h2>
             <div class="rental-grid">
+                <!-- Apartment Unit A -->
                 <div class="rental-card">
                     <span class="rental-label">Residential Suite</span><span class="status-badge status-available">🟢 Available Now</span><span class="rental-title">Apartment Unit A</span>
-                    <p>Complete upper-level 2-bedroom residential apartment featuring a comfortable living room layout, full kitchen, and independent bathroom space.</p>
+                    <p>Comfortable upper-level residential apartment space featuring two private secure entrances and dedicated room updates.</p>
                     <ul class="rental-specs">
                         <li>2 Bedrooms / 1 Full Bath</li>
                         <li>Refrigerator & stove included</li>
                         <li>Shared washer/dryer in common area</li>
                     </ul>
                 </div>
+                <!-- Apartment Unit B -->
                 <div class="rental-card">
-                    <span class="rental-label">Residential Suite</span><span class="status-badge status-pending">🟡 Tour Coming Soon</span><span class="rental-title">Apartment Unit B</span>
-                    <p>Second upper-level 2-bedroom suite layout. Specific floor configurations, appliance checkouts, and room walkthrough updates will be posted here as soon as our upcoming structural property tour concludes!</p>
+                    <span class="rental-label">Residential Suite</span><span class="status-badge status-available">🟢 Available Now</span><span class="rental-title">Apartment Unit B</span>
+                    <p>Comfortable upper-level residential apartment space featuring two private secure entrances and dedicated room updates.</p>
+                    <ul class="rental-specs">
+                        <li>2 Bedrooms / 1 Full Bath</li>
+                        <li>Refrigerator & stove included</li>
+                        <li>Shared washer/dryer in common area</li>
+                    </ul>
                 </div>
+                <!-- Garage & Private Lot Feature Box -->
                 <div class="rental-card" style="grid-column: 1 / -1; max-width: 100%;">
-                    <span class="rental-label">Secure Off-Street Units</span><span class="status-badge status-available">🟢 Available Now</span><span class="rental-title">Private 1.5-Car Storage Garage</span>
-                    <p>Highly secure detached garage space accessible directly from the main premises area. Ideal for vehicle protection, hobby workshop layouts, or local contractor equipment storage.</p>
-                </div>
-            </div>
+                    <span class="rental-label">Secure Off-Street Units</span><span class="status-badge status-available">🟢 Available Now</span><span class="rental-title">Private 1.5-Car Garage & 13-Car Parking Lot</span>
