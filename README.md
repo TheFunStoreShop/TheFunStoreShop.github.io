@@ -9,8 +9,8 @@
         body { font-family: sans-serif; background-color: #f8fafc; color: #000000; margin: 0; padding: 0 20px 140px 20px; line-height: 1.6; }
         header { padding-top: 80px; max-width: 800px; margin: 0 auto; }
         header h1 { font-size: 2.8rem; margin: 0; text-transform: uppercase; font-weight: 800; }
-        nav { position: sticky; top: 0; background-color: #ffffff; padding: 20px; margin: 40px auto; max-width: 800px; border: 1px solid #16a34a; box-shadow: 0 4px 12px rgba(22, 163, 74, 0.05); z-index: 1000; box-sizing: border-box; display: flex; flex-wrap: wrap; gap: 15px 30px; }
-        nav a { color: #000000; text-decoration: none; font-size: 1.1rem; font-weight: bold; text-transform: uppercase; }
+        nav { position: sticky; top: 0; background-color: #ffffff; padding: 20px; margin: 40px auto; max-width: 800px; border: 1px solid #16a34a; box-shadow: 0 4px 12px rgba(22, 163, 74, 0.05); z-index: 1000; box-sizing: border-box; display: flex; flex-direction: row; flex-wrap: wrap; justify-content: flex-start; align-items: center; gap: 15px 30px; }
+        nav a { color: #000000; text-decoration: none; font-size: 1.1rem; font-weight: bold; text-transform: uppercase; display: inline-block; white-space: nowrap; }
         nav a:hover { color: #16a34a; }
         .page-container { max-width: 800px; margin: 0 auto; }
         .section-block { padding: 80px 0 20px 0; }
@@ -26,7 +26,7 @@
         <h1>The Fun Store</h1>
     </header>
 
-    <!-- FIXED WIDE NAVIGATION BUTTONS -->
+    <!-- REPAIRED COHESIVE FLEXIBLE HEADER LINING -->
     <nav>
         <a href="#why-us">Why Us</a>
         <a href="#what-we-sell">What We Sell</a>
@@ -120,11 +120,10 @@
             </div>
         </section>
 
-        <!-- REPAIRED TEAM SECTIONS WITH RAW DESCRIPTIONS -->
+        <!-- REPAIRED CLEAN TEAM SECTION -->
         <section id="team" class="section-block">
             <h2>Meet The Team</h2>
             <div class="team-panel">
                 <p style="margin: 0 0 20px 0; color: #475569;">The friendly crew running our counter lanes and building property lines here on Main Street:</p>
                 
                 <div style="margin-bottom: 30px; padding-bottom: 25px; border-bottom: 1px dashed #e2e8f0;">
-                    <div style="width: 130px; height: 160px; border: 5px solid #d4af37; background-color: #f1f5f9; display: flex; align-items: center; justify-content: center; margin-bottom: 12px; font-weight: bold; color: #94a3b8; font-size: 0.85rem;">[Gold Frame Photo]</div>
